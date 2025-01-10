@@ -26,7 +26,7 @@ void setup() {
   }
 }
 
-void upladFile(){
+void updateFile(){
   // Dosyayı HTTP üzerinden indir
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
@@ -62,7 +62,7 @@ void loop() {
       updateFile();
     }
   }else{
-    printConstant();
-    delay(1000);
+    printConstant();    
   }
+  delay(1000);
 }
