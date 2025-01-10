@@ -5,7 +5,7 @@
 
 const char* ssid = "aaaabbbb";
 const char* password = "bg12as7p";
-const char* firmwareURL = "https://raw.githubusercontent.com/omorfx/otafiles/refs/heads/main/demo.h";  // Dosyanın indirileceği URL
+const char* firmwareURL = "https://raw.githubusercontent.com/omorfx/otafiles/refs/heads/main/build/esp32.esp32.esp32doit-devkit-v1/otafiles.ino.bin";  // Dosyanın indirileceği URL
 
 void setup() {
   Serial.begin(115200);

@@ -4,7 +4,7 @@
 #include <Arduino.h>
 
 // Sabit integer tanımlaması
-const int MY_CONSTANT = 10;
+const int MY_CONSTANT = 20;
 
 // Yazdırma metodu
 inline void printConstant() {
