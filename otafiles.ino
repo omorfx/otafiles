@@ -4,8 +4,8 @@
 #include <SPIFFS.h>
 #include "demo.h"  // Başta dosyayı dahil ediyoruz
 
-const char* ssid = "Arom";
-const char* password = "arom1991";
+const char* ssid = "aaaabbbb";
+const char* password = "bg12as7p";
 const char* fileURL = "https://raw.githubusercontent.com/omorfx/otafiles/refs/heads/main/demo.h";  // Dosyanın indirileceği URL
 
 void setup() {
